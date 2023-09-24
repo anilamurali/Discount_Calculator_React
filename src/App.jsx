@@ -17,9 +17,9 @@ function App() {
     console.log(disamt);
     let disprice=(price-disamt).toFixed(2);
     console.log(disprice);
-    setDiscountAmount(`Discount Amonut: ${disamt}` );
-    setDprice(`Price After Discount :  ${disprice}`);
-    setOrgianalPrice(`Orginal Price :  ${price}`)
+    setDiscountAmount(`Discount Amonut: ₹${disamt}` );
+    setDprice(`Price After Discount : ₹${disprice}`);
+    setOrgianalPrice(`Orginal Price : ₹${price}`)
   }
   const reset=(e)=>{
     setDiscountAmount('');
